@@ -281,16 +281,6 @@ PRODUCT_PACKAGES += \
     NavbarOneUiOverlay \
     NavbarSammyOverlay \
     NavbarTecnoCamonOverlay
-
-ifneq ($(TARGET_EXCLUDES_AUXIO),true)
-PRODUCT_PACKAGES += \
-    Auxio
-endif
-
-ifneq ($(TARGET_EXCLUDES_VIA),true)
-PRODUCT_PACKAGES += \
-    ViaBrowser
-endif
     
 # QS UI Style
 PRODUCT_PACKAGES += \
